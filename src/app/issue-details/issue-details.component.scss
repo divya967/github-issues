@@ -1,0 +1,41 @@
+.details-container {
+    padding: 30px 50px;
+    .title {
+        margin-bottom: 20px;
+    }
+    .state {
+        display: inline-block;
+        border: 1px solid #000;
+        border-radius: 10px;
+        background-color: green;
+        color: white;
+        padding: 7px;
+        text-transform: capitalize;
+    }
+    
+    .body-container {
+        display: flex;
+        margin-top: 10px;
+        padding: 0;
+        .body-description {
+            border:1px solid #000;
+            margin-right: 10px;
+            padding: 10px;
+        }
+        .labels {
+            display: flex;
+            flex-direction: column;
+            flex: 0 0 15%;
+            span {
+                border: 1px solid #000;
+                text-align: center;
+            }
+            .label {
+                text-align: center;
+                border-radius: 10px;
+                border: 1px solid #000;
+                margin-top: 5px;
+            }
+        }
+    }
+}

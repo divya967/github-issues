@@ -1,0 +1,15 @@
+<div class="details-container">
+    <div class="title">{{issueDetails?.title}} #{{issueDetails?.number}}</div>
+    <div class="state">{{issueDetails?.state}}</div>
+    <div class="body-container">
+        <div class="body-description">
+                {{issueDetails?.body}}
+        </div>
+        <div class="labels">
+            <span>Label</span>
+            <ng-container  *ngFor="let label of issueDetails.labels; let i = index;">
+               <div class="label" [ngStyle]="{'background-color': '#'+label.color}">L{{i+1}}: {{label.name}}</div> 
+            </ng-container>
+        </div>
+    </div>
+</div>

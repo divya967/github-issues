@@ -1,0 +1,30 @@
+
+
+.repo-container {
+    border: 1px solid #000; 
+    margin-top: 20px;
+    .repo-name {
+        text-align: center;
+        text-transform: capitalize;
+    } 
+    .inner-container {
+        padding-left: 50px;
+        .issues-text {
+            display: inline-block;
+            padding: 10px 20px 0 20px;
+            font-weight: bold;
+            margin-bottom: -1px;
+            border: 1px solid #000;
+            border-bottom: 1px solid transparent;
+            background-color: white;
+        }
+    }
+}
+.search {
+    margin: 15px;
+    border-radius: 5px;
+}
+.no-results {
+    text-align: center;
+}
+   
