@@ -7,7 +7,7 @@
   </div>
 </div>
 <div *ngIf="!navigatedId">
-  <input type="text" class="search" placeholder="Search Open Issues" [(ngModel)]="searchedText" (change)="searchResult()" /> 
+  <input type="text" class="search" placeholder="Search Open Issues" [(ngModel)]="searchedText" (ngModelChange)="searchResult()" /> 
   <table class="table">
     <thead class="thead-light">
       <tr>
